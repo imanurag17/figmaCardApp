@@ -1,38 +1,393 @@
-.App {
+
+/* body{
+  background-image: url('../public/images/Path.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 700px;
+} */
+.landingPage_background{
+  background-image: url('../public/images/Path.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 700px;
+  height: 800px;
+  
+}
+.nav_bar{
+  width: 100vw;
+  height: 120px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.nav_heading{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_img img{
+  width: 140px;
+  height: 45px;
+  margin: 35px 0px 0px 80px 
+}
+.nav_heading{
+  margin-top: 50px;
+}
+.nav_heading h4{
+  margin: 15px 60px 0px 0px;
+}
+.button{
+  margin-right: 60px;
+  height: 40px;
+  width: 160px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* Landing Page */
+
+
+.lp_image{
+  background-image: url('../public/images/BackPath.png');
+  background-size: 80% ;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 800px;
+  margin: 80px 0px 0px 0px;
+  display: flex;
+  
+  
+}
+
+.iPhoneMain_img{
+  background-image: url('../public/images/main.png');
+  background-size: 550px;
+  background-repeat: no-repeat;
+  margin: 60px 0px 0px 150px;
+  width: 600px;
+}
+
+.iPhone_img{
+  
+  height: 575px;
+  margin: 0px 0px 0px 14px;
+}
+
+.card_text{
+  width: 400px;
+  margin: 280px 0px 0px -35px;
+}
+.first_text{
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;
+}
+.first_text h2{
+  margin-top: 5px;
+}
+.second_text{
+  width: 270px;
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+.contact_btn{
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+
+.para_first{
+  color: #fa8231;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;;
+}
+.para_second{
+  margin-top: 35px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.para_second h1{
+  margin-top: 12px;
+}
+
+.main_div{
+  display: flex;
+  justify-content: space-between;
+}
+.text_div{
+  margin: 150px 0px 0px 170px;
+}
+.text_div button{
+  margin-top: 20px;
+}
+.lp_img img{
+  float: right;
+  margin: 150px 150px 0px 0px;
+  width: 450px;
+  height: 280px;
+}
+
+/* share  */
+
+.logo_div{
+  width: 100vw;
+  height: 120px;
+  border-bottom: 1px solid black;
+}
+ .logo_div img{
+  width: 140px;
+  height: 45px;
+  margin: 35px 0px 0px 80px 
+ }
+
+ .back_button{
+  font-size: large;
+  border: none;
+  background: none;
+  color: black;
+  text-decoration: none;
+  margin: 0px 0px 0px 40px;
+ }
+/* .yourCrad_div{
+  width: 300px;
+  height: 400px;
+} */
+ .yourCrad_img{
+  background-image: url('../public/images/PathP.png');
+  background-size: 320px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  
+ }
+ .shareCrad_img{
+  background-image: url('../public/images/PathG.png');
+  background-size: 320px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+ }
+ .unlockCrad_img{
+  background-image: url('../public/images/PathY.png');
+  background-size: 320px;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+ }
+ .section{
+  margin-left: 55px;
+ }
+ .section_div{
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center;
+  align-items: center; */
+
+ }
+ .card_div p {
+  font-size: 27px;
+  margin-left: 90px;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+ .inputfield{
+  width: 318px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+ }
+ .create_card{
+  width: 318px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 170px;
+ }
+
+ .inputfield_text p {
+  font-size: larger;
+  line-height: 10px;
+  font-weight: 600px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10px;
+ }
+
+ .edit_icon{
+  font-size: 30px;
+  margin: 15px 10px 0px 40px;
+ }
+
+ .shareCrad_img img {
+  width: 130px;
+  height: 130px;
+  position: relative; 
+  left: 100px;
+  top: 55px;
+ }
+
+.shareCrad_img p{
+  font-size: 15px;
+  margin-top: 85px;
+}
+
+.unlockCrad_img p{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  margin: 90px 0px 0px 55px;
+  width: 200px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.unlockCrad_img button{
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  position: absolute;
+  margin: 200px 0px 0px 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tools_div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.tools{
+  width: 350px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a5b1c2;
+}
+.tool_first{
+  width: 110px;
+  height: 94px;
+  border: 1px solid black;
+  border-radius: 20px 0px 0px 20px;
+}
+/* .tool_first div{
+  font-size: 60px;
+  margin: 0px 0px 0px 20px;
+}
+.tool_first p{
+  margin: -20px 0px 0px 30px;
+} */
+.tools_logo{
+  font-size: 60px;
+  margin: 0px 0px 0px 20px;
+}
+.tools_text{
+  margin: -20px 0px 0px 30px;
+}
+.tool_second{
+  width: 110px;
+  height: 94px;
+  border: 1px solid black;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tool_third{
+  width: 110px;
+  height: 94px;
+  border: 1px solid black;
+  border-radius: 0px 20px 20px 0px;
+  background-color: white;
+}
+.tool_third div{
+  font-size: 50px;
+  margin: 5px 0px 0px 28px;
+}
+.tool_third p {
+  margin: -12px 0px 0px 22px;
+}
+
+/* create card*/
+.uploadimg_div{
+  /* background-image: url('../public/images/uploadimg.png'); */
+  background-image: url('../src/images/upload.png');
+  width: 500px;
+  height: 370px;
+  background-size: 450px;
+  background-repeat: no-repeat;
+  margin: 80px 0px 0px 90px;
+}
+
+.uploadimg_div img{
+  margin: 125px 0px 0px 155px;
+}
+
+.uploadimg_div p{
+  margin: 30px 0px 0px 123px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.addlogo_img{
+  position: absolute;
+  top: 390px;
+  left: 320px;
+  width: 90px;
+  height: 90px;
+}
+
+.userinfo {
+  display: flex;
+}
+.user_form{
+  margin-left: 180px;
+}
+.user_form input{
+  margin: 25px 0px 25px 0px;
+  width: 320px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.additionalInfo_div{
+  margin: 500px 0px 0px 160px;
+  text-align: center;
+}
+
+.additionalInfo{
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  
+}
+/* .socialMedia_logo{
+  background-color: #f7b731;
+} */
+.socialMedia_logo div{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 40px;
+  margin: 15px 5px 0px 15px ;
+  border-radius: 10px;
+  /* background-color: #f7b731; */
+  background-image: linear-gradient(white, #f7b731);
+}
+.socialMedia_logo p{
+  font-size: small;
+  position: absolute;
+  margin: -40px 0px 0px 42px;
 }
