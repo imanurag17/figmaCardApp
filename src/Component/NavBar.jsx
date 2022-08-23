@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
  class NavBar extends Component {
     state = {  } 
     render() { 
-        return (
+        return ( 
         <>
         <div className='nav_bar'>
             <div className='nav_img'>
